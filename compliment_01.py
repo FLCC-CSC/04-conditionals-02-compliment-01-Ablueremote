@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Antonio Santiago
+# DATE: 10/1/2025
+# BRIEF DESCRIPTION:  In this program, the user is prompted whether they want a compliment or not. If they choose "yes", then a compliment is given. Either way, the user is thanked for participating.
 
 
 
@@ -16,9 +16,19 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+def main():
+    givecompliment()
 
 
+def givecompliment():
+    reply = input("Would you like a compliment? ")
 
+    if reply == "yes":
+        print("You have wonderful eyes.")
+    
+    print("Thank you for playing.")
+
+main()
 
 
 
@@ -66,12 +76,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+I would give this lab a 3 out of 10. Once you understand the if statement, it is pretty straight forward.
 
 
 
 2. What was the hardest part of this lab?
-
+Deciding what to name the vairiable for the input.. (The lab was pretty easy)
 
 
 
